@@ -1,3 +1,5 @@
+"""This file contains the functions which change the parameter values"""
+
 #Change residential claim
 def changeresidentialclaim(TigrisXLfile, inbreiding, Density):
     if TigrisXLfile == 1:
