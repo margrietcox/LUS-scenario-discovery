@@ -1,21 +1,3 @@
-from subprocess import call
-import os
-import glob
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from shutil import copyfile, move, copy, copytree, rmtree
-from distutils.dir_util import copy_tree
-from IPython.display import clear_output
-from tempfile import mkstemp
-from os import fdopen
-
-from ema_workbench import (RealParameter, IntegerParameter, BooleanParameter, ScalarOutcome, ArrayOutcome, Constant, Model, MultiprocessingEvaluator, Policy, perform_experiments, ema_logging )
-from ema_workbench import (save_results, load_results)
-
-from functools import partial
-from multiprocessing import Pool, Lock
-
 def calc_total_cells(mask):
     x = np.unique(mask, return_counts=True)[-1][-1]
     return x
@@ -94,6 +76,8 @@ def kappa(map1, map2, mask, total_cells=0):
     Kappa=Khist*Kloc
     # Return the value of Kappa.
     return Kappa
+
+"""Calculate kappa via cmd"""
 
 if __name__ == '__main__':
     
