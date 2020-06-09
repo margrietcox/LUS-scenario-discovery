@@ -1,3 +1,5 @@
+"""Model definition function"""
+
 def LUS_model(TigrisXLfile, inbreiding, Density, Claimfile, natureclaim, recvalue, restrictionnatureweight, naturepolicymap, policyweightnature, spreidingratio, valuenaturelocation, pumping, agrclaim):
     
     changeresidentialclaim(TigrisXLfile, inbreiding, Density)
