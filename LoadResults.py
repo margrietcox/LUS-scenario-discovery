@@ -1,6 +1,4 @@
-import numpy as np
-import pandas as pd
-from ema_workbench import (save_results, load_results)
+from ema_workbench import (load_results)
 
 results2 = load_results("02_6_10.tar.gz")
 print('resultsready')
