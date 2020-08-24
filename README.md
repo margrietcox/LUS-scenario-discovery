@@ -6,7 +6,7 @@ Runexperiments.py (Here, the GeoDMS software is linked to python, the experiment
 
 kappa.py (Perform kappa calculation)
 
-LoadResults.py (Load results experiments)
+Number_of_clusters_new.ipynb (Determine number of clusters) 
 
 ClusterKappa_df.py (Load kappa data frame and cluster the experiments) 
 
