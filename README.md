@@ -1,21 +1,8 @@
 # LUS-scenario-discovery
 
-Run the code in this order:
-
 Importfile.py
 
-EditDmsFunc.py
-
-ChangeParameters.py
-
-ModelDefinition.py
-
-ExperimentalSet-Up.py (Here you can change the value ranges and number of scenarios)
-
-Now you've imported all needed packages and ran the needed functions. 
-Next files to run in following order:
-
-PerformExperiments.py (Perform the experiments and save the results)
+Runexperiments.py (Here, the GeoDMS software is linked to python, the experimental set-up is defined, and it includes the code to run the experiments)
 
 kappa.py (Perform kappa calculation)
 
